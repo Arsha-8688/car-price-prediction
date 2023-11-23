@@ -45,6 +45,8 @@ def predict():
         return jsonify({"Predicted Result":f"result :{predict}"})
     else:
         return render_template("predict.html")
+
+
         
 
         
